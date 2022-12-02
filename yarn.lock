@@ -5079,6 +5079,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nhost/hasura-auth-js@npm:1.6.4":
+  version: 1.6.4
+  resolution: "@nhost/hasura-auth-js@npm:1.6.4"
+  dependencies:
+    axios: ^1.2.0
+    jwt-decode: ^3.1.2
+    xstate: ^4.33.5
+  peerDependencies:
+    "@nhost/core": 0.9.4
+  checksum: e0a8b0e9c09831a6a0a9692da888f5aa0ad9e01c665a79898d0e97755b6845d8f764b96dd0b9d747efe60cacf60691d36d56700fbbcd63eae9bf5050b22020f4
+  languageName: node
+  linkType: hard
+
 "@nhost/hasura-storage-js@npm:0.6.0":
   version: 0.6.0
   resolution: "@nhost/hasura-storage-js@npm:0.6.0"
@@ -6711,7 +6724,7 @@ __metadata:
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
     "@magic-sdk/admin": 1.4.1
-    "@nhost/hasura-auth-js": 1.4.1
+    "@nhost/hasura-auth-js": 1.6.4
     "@nhost/nhost-js": 1.4.10
     "@okta/jwt-verifier": 2.6.0
     "@okta/okta-auth-js": 6.9.0
@@ -6787,7 +6800,7 @@ __metadata:
     "@clerk/clerk-react": 3.5.1
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
-    "@nhost/hasura-auth-js": 1.4.1
+    "@nhost/hasura-auth-js": 1.6.4
     "@nhost/nhost-js": 1.4.10
     "@okta/okta-auth-js": 6.9.0
     "@redwoodjs/auth": 3.2.0
@@ -6841,7 +6854,7 @@ __metadata:
     "@clerk/clerk-react": 3.5.1
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
-    "@nhost/hasura-auth-js": 1.4.1
+    "@nhost/hasura-auth-js": 1.6.4
     "@nhost/nhost-js": 1.4.10
     "@okta/okta-auth-js": 6.9.0
     "@simplewebauthn/browser": 6.2.1
@@ -11762,14 +11775,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.0.0":
-  version: 1.1.2
-  resolution: "axios@npm:1.1.2"
+"axios@npm:^1.0.0, axios@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "axios@npm:1.2.0"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 85a3eb96164b00b34d7c0d4516fe77b505b4baecd85c5eadb8d59ea573f06d592bcc13e9db9d1f51af08138a4c069fd1f619ae84f6828b5489a2b9a40219085e
+  checksum: 2a9a73ca55010cab987b612b358a0bf128ebc572c5d63cdb66fb9c336a5718752749f2ba8b38b9745a6e33edb83ffec2dd65c5a7118ce94e5cae1a9ea6fc74c2
   languageName: node
   linkType: hard
 
@@ -32649,10 +32662,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xstate@npm:^4.32.1":
-  version: 4.32.1
-  resolution: "xstate@npm:4.32.1"
-  checksum: 120ecac3e0310c43dc3a5edb87512cf8bcf81c5ca4ce0f53d50c0508e5fa9ab56ea954e600af908e1bbd1bfe0601a09efbaa0044b80113b5bad4bbb6fb2d4424
+"xstate@npm:^4.32.1, xstate@npm:^4.33.5":
+  version: 4.34.0
+  resolution: "xstate@npm:4.34.0"
+  checksum: a8a48a5ddad63ac3a34664011f389ddcd9c391266dce06b52a90b59326e63b66edb3aabc326473b841c7b59c0112d1bcd88225d44ca8a22f8bbc1d1c93c63c89
   languageName: node
   linkType: hard
 
