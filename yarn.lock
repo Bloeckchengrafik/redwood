@@ -3548,7 +3548,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/schema@npm:9.0.4, @graphql-tools/schema@npm:^9.0.0":
+"@graphql-tools/schema@npm:9.0.10, @graphql-tools/schema@npm:^9.0.0":
+  version: 9.0.10
+  resolution: "@graphql-tools/schema@npm:9.0.10"
+  dependencies:
+    "@graphql-tools/merge": 8.3.12
+    "@graphql-tools/utils": 9.1.1
+    tslib: ^2.4.0
+    value-or-promise: 1.0.11
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 1fa3a190720dc571bfeed5af1767b7bb117903b3b91fcb2d8e0422cdb82aada9f0b763ae37865f07a73893fe22d3d2146c096663378db8139ed7c8fb0e42c1e1
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/schema@npm:9.0.4":
   version: 9.0.4
   resolution: "@graphql-tools/schema@npm:9.0.4"
   dependencies:
@@ -3598,17 +3612,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/utils@npm:8.13.1, @graphql-tools/utils@npm:^8.6.5, @graphql-tools/utils@npm:^8.8.0, @graphql-tools/utils@npm:^8.9.0":
-  version: 8.13.1
-  resolution: "@graphql-tools/utils@npm:8.13.1"
-  dependencies:
-    tslib: ^2.4.0
-  peerDependencies:
-    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: f9bab1370aa91e706abec4c8ea980e15293cb78bd4effba53ad2365dc39d81148db7667b3ef89b35f0a0b0ad58081ffdac4264b7125c69fa8393590ae5025745
-  languageName: node
-  linkType: hard
-
 "@graphql-tools/utils@npm:8.8.0":
   version: 8.8.0
   resolution: "@graphql-tools/utils@npm:8.8.0"
@@ -3639,6 +3642,17 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: b3dbbb888507f88b42eeb638609acd2105312bf2f83485baf8205a64f0f6b7905726e1ce9e5f4a2a54d02ca94a2ac4fb39f9cacc76b13b2690a337adc3effcb0
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/utils@npm:^8.6.5, @graphql-tools/utils@npm:^8.8.0, @graphql-tools/utils@npm:^8.9.0":
+  version: 8.13.1
+  resolution: "@graphql-tools/utils@npm:8.13.1"
+  dependencies:
+    tslib: ^2.4.0
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: f9bab1370aa91e706abec4c8ea980e15293cb78bd4effba53ad2365dc39d81148db7667b3ef89b35f0a0b0ad58081ffdac4264b7125c69fa8393590ae5025745
   languageName: node
   linkType: hard
 
@@ -7114,8 +7128,8 @@ __metadata:
     "@envelop/types": 2.4.0
     "@envelop/validation-cache": 4.7.0
     "@graphql-tools/merge": 8.3.12
-    "@graphql-tools/schema": 8.5.1
-    "@graphql-tools/utils": 8.13.1
+    "@graphql-tools/schema": 9.0.10
+    "@graphql-tools/utils": 9.1.1
     "@graphql-yoga/common": 2.12.12
     "@prisma/client": 4.7.0
     "@redwoodjs/api": 3.2.0
